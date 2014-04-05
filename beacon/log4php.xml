@@ -1,0 +1,10 @@
+<configuration xmlns="http://logging.apache.org/log4php/">
+    <appender name="myAppender" class="LoggerAppenderFile">
+        <layout class="LoggerLayoutTTCC"/>
+        <param name="file" value="/var/www/adskom/beacon/log/beacon.log" />
+    </appender>
+    <root>
+        <level value="DEBUG" />
+        <appender_ref ref="myAppender" />
+    </root>
+</configuration>

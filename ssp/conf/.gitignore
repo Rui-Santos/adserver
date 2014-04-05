@@ -1,0 +1,4 @@
+# Ignore this file
+main.config.php
+# Except this file
+!.gitignore
